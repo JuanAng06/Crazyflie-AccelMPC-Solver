@@ -1,0 +1,17 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+accel_mpc_env/
+
+# PyCharm & IDE settings
+.idea/
+.vscode/
+
+# Pytest cache
+.pytest_cache/
