@@ -15,3 +15,8 @@ accel_mpc_env/
 
 # Pytest cache
 .pytest_cache/
+
+# Ket qua mo phong (khong dua len Git, de trong thu muc chung cua nhom)
+*.npz
+*.mp4
+hinh/
