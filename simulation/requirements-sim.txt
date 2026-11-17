@@ -1,0 +1,17 @@
+# Môi trường mô phỏng 3D (Giai đoạn 2-4). Python 3.12 (conda env "drones").
+# pybullet cài bằng conda-forge (Windows không cần trình biên dịch C++):
+#     conda install -c conda-forge pybullet
+# gym-pybullet-drones cài từ mã nguồn, bỏ qua ràng buộc pybullet>=3.2.7:
+#     git clone https://github.com/utiasDSL/gym-pybullet-drones.git
+#     cd gym-pybullet-drones && pip install -e . --no-deps
+numpy
+scipy
+pyyaml
+osqp
+pytest
+matplotlib
+imageio
+imageio-ffmpeg
+gymnasium
+transforms3d
+stable-baselines3
